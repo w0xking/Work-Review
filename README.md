@@ -321,12 +321,20 @@ npm run tauri:build  # 构建
 
 ```text
 src/                  Svelte 前端
+
 src/routes/           页面（概览 / 时间线 / 问答 / 日报 / 设置）
+\src\routes\about
+About.svelte
+
 src/lib/              组件、store、工具函数
+
 src-tauri/src/        Rust 后端（监控、数据库、分析、隐私、更新）
+commands.rs 
+main.rs
 ```
 
 ---
+
 
 
 ## License
